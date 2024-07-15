@@ -1,0 +1,150 @@
+@media (max-width: 1025px){
+    /* container */
+    .container{
+      padding-top: 96px;
+    }
+    /* header */
+    header{
+      padding: 16px 32px;
+    }
+    .header_logo{
+      display: flex;
+      flex-direction: column;
+    }
+    .logo1{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+    }
+    .logo2{
+      font-size: 24px;
+      line-height: 32px;
+    }
+    /* home_section2 */
+    .section2_cards{
+      padding-inline: 32px;
+    }
+  /* footer */
+    footer{
+      padding-inline: 32px;
+    }
+    /* artwork-section */
+    .artwork_section{
+      padding: 32px;
+    }
+
+  /* contact-section1 */
+   .contact_section1{
+    padding-left: 32px;
+  }
+  /* contact-section2  */
+    .contact_section2{
+      padding-inline: 116px;
+  }
+  }
+  @media (max-width: 745px){
+    /* header */
+    header{
+      padding-inline: 24px;
+    }
+    .header_span_right{
+      display: none;
+    }
+    .fa-arrow-right-to-bracket, .fa-bars{
+      display: block;
+    }
+    .header_right{
+      column-gap: 8px;
+    }
+    .header_nav{
+      position: fixed;
+      top: 96px;
+      left: -100%;
+      background-color: #B53B1B;
+      width: 240px;
+      height: 260px;
+      padding: 25px 0 0 20px;
+    }
+    .header_ul{
+      flex-direction: column;
+      row-gap: 20px;
+    }
+    .header_a{
+      color: #FFFFFF;
+    }
+    /* home_section2 */
+    .section2_cards{
+      padding-inline: 24px 0;
+    }
+    /* footer */
+    footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer_nav_left{
+      margin-bottom: 32px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .media_box{
+      margin-bottom: 32px;
+    }
+    .footer_logo{
+      margin-bottom: 32px;
+    }
+    .footer_info{
+      display: none;
+    }
+    .footer_nav_right{
+      display: flex;
+      justify-content: center;
+    }
+    .footer_span{
+      margin-right: 0;
+    }
+    .footer_ul_right{
+      width: 104px;
+      display: flex;
+      justify-content: space-between;
+    }
+    /* artwork-section */
+    .artwork_section{
+      padding: 24px;
+    }
+    /* cards */
+    .artwork_figure{
+      width: 336px;
+    }
+    .button_forNumbers_box{
+      width: 391px;
+    }
+    /* contact-section1 */
+    .contact_section1 {
+    padding-left: 32px;
+    }
+    /* contact-section2  */
+    .contact_section2{
+      padding-inline: 24px;
+    }
+    .btn4 {
+      display: none;
+    }
+  }
+  @media (max-width: 641px){
+    /* artwork-section  */
+    .artwork_section1_h3{
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .btn4{
+      display: none;
+    }
+    .section1_sort_by{
+      width: 61px;
+    }
+    .section1_sort_p{
+      display: none;
+    }
+  }

@@ -1,0 +1,65 @@
+@media (max-width: 481px){
+    /* header */
+    header{
+      padding-inline: 20px;
+    }
+    /* home_section1 */
+    .section1{
+      height: 304px;
+    }
+    .section1_h2{
+      font-size: 32px;
+      line-height: 40px;
+      margin-bottom: 32px;
+    }
+  /* home_section2 */
+    .section2_both{
+      padding-block: 64px;
+    }
+    .section2_cards{
+      padding-inline: 20px 0;
+    }
+    .section2_h2{
+      font-size: 32px;
+      line-height: 40px;
+      margin-bottom: 32px;
+    }
+    /* footer */
+    footer{
+      padding-block: 30px;
+    }
+
+  .but3 {
+      display: none;
+  }
+
+  .art_section1_h3 {
+      font-size: 16px;
+      line-height: 24px;
+  }
+
+  .section1_sort_p {
+      display: none;
+  }
+
+  .section1_sort_by {
+      width: 61px;
+      height: 40px;
+  }
+
+  .section1_pages_list {
+
+      width: 40px;
+      height: 40px;
+  }
+
+  .artwork_section1_title_btn {
+      padding-block: 64px 48px;
+  }
+  }
+  @media (max-width: 431px){
+    .section1_h2{
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }

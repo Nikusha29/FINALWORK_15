@@ -1,0 +1,19 @@
+@media (max-width: 321px){
+    /* header */
+    header{
+      padding-inline: 8px;
+    }
+    /* home_section2 */
+    .section2_cards{
+      padding-inline: 8px 0;
+    }
+    .section2_h2{
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 42px;
+    }
+    /* artwork-section  */
+    .artwork_section1_title_btn{
+      padding: 8px;
+    }
+  }
