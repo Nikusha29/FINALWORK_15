@@ -13,17 +13,42 @@
       margin-bottom: 32px;
     }
   /* home_section2 */
-    .section2_both{
-      padding-block: 64px;
+    .section2 {
+      padding: 64px 0 64px 20px;
     }
-    .section2_cards{
-      padding-inline: 20px 0;
-    }
+  
     .section2_h2{
       font-size: 32px;
       line-height: 40px;
       margin-bottom: 32px;
     }
+
+  /* contact section */
+  .contact_section1 {
+    height: 560px;
+    padding-inline: 24px;
+  }
+  form {
+    padding: 24px 20px;
+  }
+  h5 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .name_email_box {
+    column-gap: 32px;
+  }
+  /* contact section 2 */
+  .contact_section2 {
+    padding-block: 64px;
+  }
+  h6 {
+    font-size: 32px;
+  }
+  .contact_section2_leftside {
+    column-gap: 42px;
+  }
+  
     /* footer */
     footer{
       padding-block: 30px;
@@ -33,28 +58,15 @@
       display: none;
   }
 
-  .art_section1_h3 {
-      font-size: 16px;
-      line-height: 24px;
+
+  .section1_pages {
+    margin-top: 48px;
   }
-
-  .section1_sort_p {
-      display: none;
+  .artwork_section1 {
+    padding: 64px 24px;
   }
-
-  .section1_sort_by {
-      width: 61px;
-      height: 40px;
-  }
-
-  .section1_pages_list {
-
-      width: 40px;
-      height: 40px;
-  }
-
   .artwork_section1_title_btn {
-      padding-block: 64px 48px;
+      margin-bottom: 48px;
   }
   }
   @media (max-width: 431px){
