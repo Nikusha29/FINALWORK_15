@@ -27,12 +27,13 @@
     }
     /* artwork-section */
     .artwork_section1 {
-      padding-inline: 24px;
+      padding-inline: 55px;
+      /*მომატებულია*/
     }
 
   /* contact-section1 */
    .contact_section1{
-    padding-left: 32px;
+    padding-left: 32px; 
   }
   /* contact-section2  */
   
@@ -129,7 +130,7 @@
     .section1_sort_by {
       justify-content: center;
       padding: 0;
-      width: 641px;
+      width: 61px;
       height: 40px;
 
     }
