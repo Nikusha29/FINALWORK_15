@@ -115,7 +115,9 @@
     padding-left: 32px;
     }
     /* contact-section2  */
-    
+    .contact_section2_leftside {
+      flex-direction: row;
+    }
 
     
   }
